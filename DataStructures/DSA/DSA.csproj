@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <StartupObject>DSA.DataStructures.Tree.BinaryTreeProgram</StartupObject>
+    <StartupObject>DSA.LeetcodeProblems.SlidingWindow.ContinousElementSum</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
