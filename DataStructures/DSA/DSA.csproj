@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <StartupObject>DSA.LeetcodeProblems.SlidingWindow.ContinousElementSum</StartupObject>
+    <StartupObject>DSA.Blind_75.MaximumSubArray</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
