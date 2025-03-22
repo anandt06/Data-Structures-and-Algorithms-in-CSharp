@@ -9,21 +9,28 @@
     {
         static void Main(string[] args)
         {
-            int[] arr = { 64, 25, 12, 22, 11 };
-            int minELement = arr[0];
-            int temp = 0;
-            for (int i = 0; i < arr.Length; i++)
+            int[] arr = { 11, 25, 64, 22, 9 };
+
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                temp = arr[i];
+                ref int min = ref arr[i];
 
                 for (int j = i; j < arr.Length; j++)
                 {
-                    if (arr[j] < minELement)
+                    if (arr[j] < min)
                     {
-                        minELement = arr[i];
+                        min = ref arr[j];
                     }
                 }
 
+                Swap(ref arr[i], ref min);
+            }
+
+            void Swap(ref int first, ref int min)
+            {
+                var temp = min;
+                min = first;
+                first = temp;
             }
 
         }
