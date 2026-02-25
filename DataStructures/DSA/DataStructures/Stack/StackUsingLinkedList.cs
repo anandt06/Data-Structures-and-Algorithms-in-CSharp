@@ -116,7 +116,7 @@ namespace DSA.DataStructures.Tree
 
         }
 
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
             // create Object of Implementing class
             StackUsingLinkedlist obj = new StackUsingLinkedlist();

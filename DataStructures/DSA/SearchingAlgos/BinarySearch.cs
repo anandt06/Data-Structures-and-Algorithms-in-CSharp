@@ -2,7 +2,8 @@
 
 namespace DSA.SearchingAlgos
 {
-    internal class BinarySearch
+    // Binary search is applicable for only sorted array
+    public class BinarySearch
     {
         static void Main(string[] args)
         {

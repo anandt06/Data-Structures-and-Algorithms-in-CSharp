@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DSA.DataStructures
+namespace DSA.Recursion
 {
     // Every recursion function need to have a base condition to break out of the recursive call else it will lead to stack overflow
     internal class RecursionProgram
@@ -10,25 +10,39 @@ namespace DSA.DataStructures
         static void Main(string[] args)
         {
 
-            TreeRecursion(3);
+            //TreeRecursion(3);
 
-            Console.WriteLine(GetFactorialOfNumber(5));
+            //Console.WriteLine(GetFactorialOfNumber(5));
 
-            Console.WriteLine(GetPowerOfNumber(4, 4));
+            //Console.WriteLine(GetPowerOfNumber(4, 4));
 
-            PrintNameNTime(5);
+            //PrintNameNTime(5);
 
-            PrintNumberFromNto1(5);
+            //PrintNumberFromNto1(5);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            PrintNumberFrom1toN(1, 5);
+            //PrintNumberFrom1toN(1, 5);
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            TailRecursivePower(5, 3);
+            //TailRecursivePower(5, 3);
+
+            PrintNumberFromNto1And1toN(5);
 
 
+
+        }
+
+        private static void PrintNumberFromNto1And1toN(int number)
+        {
+            if(number == 0)
+            {
+                return;
+            }
+            Console.WriteLine(number);
+            PrintNumberFromNto1And1toN(number - 1);
+            Console.WriteLine(number);
         }
 
         public static int GetFactorialOfNumber(int number)

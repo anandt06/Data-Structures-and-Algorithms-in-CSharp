@@ -3,11 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <StartupObject>DSA.Blind_75.MaximumSubArray</StartupObject>
+    <StartupObject>DSA.DataStructures.String.ValidParanthesis</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataStructures\Stack\" />
+    <Folder Include="LeetcodeProblems\Arrays\Patterns\Sliding Window\Variable\" />
+    <Folder Include="LeetcodeProblems\NewFolder\" />
+    <Folder Include="LeetcodeProblems\Random\" />
   </ItemGroup>
 
 </Project>

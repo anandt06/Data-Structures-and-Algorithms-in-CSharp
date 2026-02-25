@@ -21,7 +21,13 @@ namespace DSA.Blind_75
 
             for (int i = 0; i < ipArray.Length; i++)
             {
+                for (int j = i; j < ipArray.Length; j++)
+                {
+                    for (int k = i; k < j; k++)
+                    {
 
+                    }
+                }
             }
         }
     }

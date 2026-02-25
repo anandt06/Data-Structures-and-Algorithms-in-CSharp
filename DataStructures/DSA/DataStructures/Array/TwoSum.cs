@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.LeetcodeProblems.TwoPointer
+namespace DSA.DataStructures.Array
 {
-    internal class TwoPointer
+    public class TwoSum
     {
-
     }
 }
